@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">监控助手</string>
+    <string name="dialog_select_camera_type_title">请选择监控类别：</string>
+    <string name="dialog_select_camera_isrunning_title">请选择运行状态：</string>
+</resources>

@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <EditText
+            android:id="@+id/et_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="输入城市名称查询" />
+
+        <Button
+            android:background="@drawable/search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="search"/>
+        
+          <Button
+            android:id="@+id/btn_download"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/download_disable"
+            android:enabled="false"
+            android:onClick="download"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:background="#189BF7"
+        android:paddingTop="10dp" 
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="下载列表"/>
+    
+    <ListView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/localmaplist"/>
+
+</LinearLayout>

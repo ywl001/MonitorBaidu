@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="blue">#FF4081</color>
+    <color name="textColor">#888888</color>
+    <color name="listItemBg">#f2f2f2</color>
+    <color name="listItemBgfocus">#557C95F5</color>
+    <color name="danlan">#88CAFF</color>
+    <color name="qianhui">#dddddd</color>
+
+</resources>

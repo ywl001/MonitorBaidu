@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cameraType" >
+        <item>枪机</item>
+        <item>球机</item>
+        <item>卡口</item>
+        <item>电警</item>
+        <item>全景</item>
+        <item>高空瞭望</item>
+        <item>社会监控</item>
+    </string-array>
+
+    <string-array name="isRunning">
+        <item>正常</item>
+        <item>停用</item>
+    </string-array>
+
+    <string-array name="camera">
+        <item>监控名称</item>
+        <item>监控类型</item>
+        <item>监控编号</item>
+        <item>所属单位</item>
+        <item>录入人员</item>
+        <item>运行状态</item>
+        <item>录入时间</item>
+    </string-array>
+</resources>
