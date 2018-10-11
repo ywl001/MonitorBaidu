@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import rx.Observer;
@@ -30,10 +30,10 @@ import rx.Observer;
 
 public class SearchActivity extends BaseActivity implements SearchItemView.OnItemChangeListener, BaseObserver.OnNextListener {
 
-    @Bind(R.id.root_view)
+    @BindView(R.id.root_view)
     LinearLayout rootView;
 
-    @Bind(R.id.search_item)
+    @BindView(R.id.search_item)
     SearchItemView firstItem;
 
     List<SearchItemView> items;

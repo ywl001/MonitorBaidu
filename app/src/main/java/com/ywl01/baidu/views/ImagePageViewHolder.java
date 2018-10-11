@@ -15,7 +15,7 @@ import com.ywl01.baidu.activitys.BaseActivity;
 import com.ywl01.baidu.utils.AppUtils;
 import com.ywl01.baidu.views.holders.BaseHolder;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
@@ -23,10 +23,10 @@ import butterknife.ButterKnife;
  */
 
 public class ImagePageViewHolder extends BaseHolder<String> implements OnPhotoTapListener{
-    @Bind(R.id.photo_view)
+    @BindView(R.id.photo_view)
     PhotoView photoView;
 
-    @Bind(R.id.loading)
+    @BindView(R.id.loading)
     ProgressBar progressBar;
 
     @Override

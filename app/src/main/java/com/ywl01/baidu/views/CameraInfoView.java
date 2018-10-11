@@ -39,7 +39,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import rx.Observer;
@@ -64,25 +64,25 @@ public class CameraInfoView extends RelativeLayout implements BaseObserver.OnNex
 
     private ArrayList<CameraImageBean> monitorImages;
 
-    @Bind(R.id.tv_name)
+    @BindView(R.id.tv_name)
     TextView tvName;
 
-    @Bind(R.id.tv_type)
+    @BindView(R.id.tv_type)
     TextView tvType;
 
-    @Bind(R.id.tv_owner)
+    @BindView(R.id.tv_owner)
     TextView tvOwner;
 
-    @Bind(R.id.tv_telephone)
+    @BindView(R.id.tv_telephone)
     TextView tvTelephone;
 
-    @Bind(R.id.scroller_view)
+    @BindView(R.id.scroller_view)
     HorizontalScrollView scrollView;
 
-    @Bind(R.id.image_group)
+    @BindView(R.id.image_group)
     ImageGroup imageGroup;
 
-    @Bind(R.id.ll_menu)
+    @BindView(R.id.ll_menu)
     LinearLayout markerMenu;
 
     private DelObserver delFileObserver;

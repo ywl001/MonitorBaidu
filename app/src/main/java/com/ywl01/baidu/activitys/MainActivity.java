@@ -69,7 +69,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.OnLongClick;
@@ -83,43 +83,43 @@ public class MainActivity extends BaseActivity implements
 
     private boolean isLogin;
 
-    @Bind(R.id.main_container)
+    @BindView(R.id.main_container)
     LinearLayout mainContainer;
 
-    @Bind(R.id.btn_mapType)
+    @BindView(R.id.btn_mapType)
     ImageView imgSwitchMap;
 
-    @Bind(R.id.map_container)
+    @BindView(R.id.map_container)
     RelativeLayout mapContainer;
 
-    @Bind(R.id.btn_container)
+    @BindView(R.id.btn_container)
     LinearLayout btnContainer;
 
-    @Bind(R.id.search_view)
+    @BindView(R.id.search_view)
     SearchView searchView;
 
-    @Bind(R.id.list_view)
+    @BindView(R.id.list_view)
     ListView listView;
 
-    @Bind(R.id.drawer_layout)
+    @BindView(R.id.drawer_layout)
     DrawerLayout drawerLayout;
 
-    @Bind(R.id.tv_level)
+    @BindView(R.id.tv_level)
     TextView tvLevel;
 
-    @Bind(R.id.tv_login_info)
+    @BindView(R.id.tv_login_info)
     TextView tvLoginInfo;
 
-    @Bind(R.id.iv_login)
+    @BindView(R.id.iv_login)
     ImageView btnLogin;
 
-    @Bind(R.id.btn_panorama)
+    @BindView(R.id.btn_panorama)
     ImageView btnPanorama;
 
-    @Bind(R.id.tv_search_title)
+    @BindView(R.id.tv_search_title)
     TextView tvSearchTitle;
 
-    @Bind(R.id.progressBar)
+    @BindView(R.id.progressBar)
     ProgressBar progressBar;
 
     private BaiduMap baiduMap;

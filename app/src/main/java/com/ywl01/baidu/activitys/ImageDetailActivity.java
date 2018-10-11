@@ -25,7 +25,7 @@ import com.ywl01.baidu.views.ImagePageViewHolder;
 
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import rx.Observer;
@@ -45,10 +45,10 @@ public class ImageDetailActivity extends BaseActivity implements ViewPager.OnPag
     private String delImageUrl;
     private String delThumbUrl;
 
-    @Bind(R.id.image_pager)
+    @BindView(R.id.image_pager)
     ViewPager imagePager;
 
-    @Bind(R.id.btn_del)
+    @BindView(R.id.btn_del)
     ImageView btnDel;
 
     private PagerAdapter pagerAdapter;

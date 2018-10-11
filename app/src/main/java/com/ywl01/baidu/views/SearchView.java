@@ -25,7 +25,7 @@ import com.ywl01.baidu.utils.AppUtils;
 
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import rx.Observer;
@@ -39,10 +39,10 @@ public class SearchView extends FrameLayout implements TextWatcher,TextView.OnEd
 
     private Context context;
 
-    @Bind(et_search)
+    @BindView(et_search)
     EditText etSearch;
 
-    @Bind(R.id.btn_clear)
+    @BindView(R.id.btn_clear)
     Button btnClear;
 
     public SearchView(Context context) {

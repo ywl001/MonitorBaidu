@@ -29,7 +29,7 @@ import org.greenrobot.eventbus.Subscribe;
 import java.util.HashMap;
 import java.util.Map;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import rx.Observer;
@@ -44,34 +44,34 @@ import static com.ywl01.baidu.utils.SPUtils.get;
 public class AddMonitorActivity extends BaseActivity implements BaseObserver.OnNextListener,View.OnClickListener {
     private Context context;
 
-    @Bind(R.id.et_number)
+    @BindView(R.id.et_number)
     EditText etNumber;
 
-    @Bind(R.id.et_type)
+    @BindView(R.id.et_type)
     EditText etType;
 
-    @Bind(R.id.et_name)
+    @BindView(R.id.et_name)
     EditText etName;
 
-    @Bind(R.id.et_owner)
+    @BindView(R.id.et_owner)
     EditText etOwner;
 
-    @Bind(R.id.et_angle)
+    @BindView(R.id.et_angle)
     EditText etAngle;
 
-    @Bind(R.id.et_level)
+    @BindView(R.id.et_level)
     EditText etLevel;
 
-    @Bind(R.id.et_telephone)
+    @BindView(R.id.et_telephone)
     EditText etTelephone;
 
-    @Bind(cb_isRunning)
+    @BindView(cb_isRunning)
     CheckBox cbIsRunning;
 
-    @Bind(R.id.tv_title)
+    @BindView(R.id.tv_title)
     TextView titleTextView;
 
-    @Bind(R.id.ll_rotate_group)
+    @BindView(R.id.ll_rotate_group)
     LinearLayout rotateGroup;
 
     @Override

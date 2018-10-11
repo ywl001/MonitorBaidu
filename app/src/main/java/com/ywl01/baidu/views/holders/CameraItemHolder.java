@@ -8,7 +8,7 @@ import com.ywl01.baidu.beans.CameraBean;
 import com.ywl01.baidu.utils.AppUtils;
 import com.ywl01.baidu.utils.StringUtils;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
@@ -17,16 +17,16 @@ import butterknife.ButterKnife;
 
 public class CameraItemHolder extends BaseHolder<CameraBean> {
 
-    @Bind(R.id.tv_name)
+    @BindView(R.id.tv_name)
     TextView tvName;
 
-    @Bind(R.id.tv_type)
+    @BindView(R.id.tv_type)
     TextView tvType;
 
-    @Bind(R.id.tv_owner)
+    @BindView(R.id.tv_owner)
     TextView tvOwner;
 
-    @Bind(R.id.tv_telephone)
+    @BindView(R.id.tv_telephone)
     TextView tvTelephone;
 
 

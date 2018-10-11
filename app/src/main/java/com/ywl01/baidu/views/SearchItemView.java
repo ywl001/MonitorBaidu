@@ -22,7 +22,7 @@ import com.ywl01.baidu.utils.AppUtils;
 import java.util.HashMap;
 import java.util.Map;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnCheckedChanged;
 import butterknife.OnClick;
@@ -34,25 +34,25 @@ import butterknife.OnClick;
 public class SearchItemView extends FrameLayout implements RadioGroup.OnCheckedChangeListener {
     private Context context;
 
-    @Bind(R.id.et_field)
+    @BindView(R.id.et_field)
     public EditText etField;
 
-    @Bind(R.id.et_operator)
+    @BindView(R.id.et_operator)
     EditText etOperator;
 
-    @Bind(R.id.et_keyword)
+    @BindView(R.id.et_keyword)
     EditText etKeyword;
 
-    @Bind(R.id.rg_logic)
+    @BindView(R.id.rg_logic)
     RadioGroup rgLogic;
 
-    @Bind(R.id.rb_and)
+    @BindView(R.id.rb_and)
     RadioButton rbAnd;
 
-    @Bind(R.id.rb_or)
+    @BindView(R.id.rb_or)
     RadioButton rbOr;
 
-    @Bind(R.id.btn_remove)
+    @BindView(R.id.btn_remove)
     Button btnRemove;
 
     private Map<String, String> operatorMap;

@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import com.ywl01.baidu.R;
 import com.ywl01.baidu.events.GetAngleEvent;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
@@ -23,7 +23,7 @@ public class CompassDialog extends Dialog implements View.OnTouchListener {
     private float downY;
     private Context context;
 
-    @Bind(R.id.hand)
+    @BindView(R.id.hand)
     ImageView handView;
 
     private View rootView;

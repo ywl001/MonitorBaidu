@@ -9,15 +9,15 @@ import com.baidu.lbsapi.panoramaview.PanoramaView;
 import com.ywl01.baidu.BaseApplication;
 import com.ywl01.baidu.R;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class PanoramaActivity extends BaseActivity implements RadioGroup.OnCheckedChangeListener {
 
-    @Bind(R.id.panorama_view)
+    @BindView(R.id.panorama_view)
     PanoramaView panoramaView;
 
-    @Bind(R.id.radio_group)
+    @BindView(R.id.radio_group)
     RadioGroup radioGroup;
 
     @Override
